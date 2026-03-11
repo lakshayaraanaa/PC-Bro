@@ -1,129 +1,156 @@
-    export default function Footer() {
-        return (
-            <>
-                <style>
-                    {`
-             .circle-element{
-    background-color: #f57425;
-    color:#ffffff;  
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-}  
-    
-    
-                `}
-                </style>
-                <footer className="bg-light shadow-lg   pt-4 pb-2 mt-auto    " >
-                    <div className="container  d-flex  bg-light text-dark pt-5 pb-2 gap-5 ">
-                        <div className="d-flex gap-3">
-                        <span className="circle-element p-2">
-                            <i class=" bi bi-truck  fs-1"></i>    
-                              </span>
-                              <div>
-                             <h4>Free Shipping</h4>
-                            <p>Except Monitor & Cabinet*</p>                    
-                      </div>
-                      </div>
-                       
-                        <div className="d-flex  gap-3">
-                  
-                        <span className="circle-element  p-2">
-                            <i class="bi bi-repeat fs-1"></i>
-                             </span>
-                             <div>
-                            <h4>Hassle-Free Returns</h4>
-                            <p>7 Days Easy Returns*</p>
-                       </div>
-                            </div>
-             <div className="d-flex  gap-3">
-                        <span className="circle-element  p-2">
-                            <i class="bi bi-credit-card fs-1"></i>
-                            </span>
-                             <div>
-                            <h4>Secure Checkout</h4>
-                            <p>Trusted & Encrypted Payments</p>
-                        </div >
+export default function Footer() {
+  return (
+    <>
+      <style>
+        {`
+        .circle-element{
+          background-color:#f57425;
+          color:#fff;
+          border-radius:50%;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          width:60px;
+          height:60px;
+        }
+        `}
+      </style>
 
-                        </div>
+      <footer className="bg-light shadow-lg pt-4 mt-auto">
 
-                        <div className="d-flex  gap-3">
-                        <span className="circle-element  p-2" >
-                            <i class="bi bi-cart3 fs-1"></i>
-                            </span>
-                             <div>
-                            <h4>10,000+</h4>
-                            <p>Order Successfully Delivereds</p>
-                        </div>
-                        </div>
-                    </div>
+        {/* Top Features */}
+        <div className="container py-4">
+          <div className="row text-center text-md-start gy-4">
 
-<hr className="shadow-lg"></hr>
+            <div className="col-12 col-md-3 d-flex gap-3 justify-content-center justify-content-md-start">
+              <span className="circle-element">
+                <i className="bi bi-truck fs-3"></i>
+              </span>
+              <div>
+                <h6>Free Shipping</h6>
+                <p className="mb-0">Except Monitor & Cabinet*</p>
+              </div>
+            </div>
 
-                    <div className="d-flex justify-content-around mt-5">
-                        <div>
-  <img src="src\assets\Gemini_Generated_Image_450vqi450vqi450v-removebg-preview.png"style={{width:"250px"}}  alt="loading"/>
-                        <div className="container bg-warning" >map implement </div>
-                        </div>
-                      <div className="d-flex justify-content-around  gap-5 px-5">
+            <div className="col-12 col-md-3 d-flex gap-3 justify-content-center justify-content-md-start">
+              <span className="circle-element">
+                <i className="bi bi-repeat fs-3"></i>
+              </span>
+              <div>
+                <h6>Hassle-Free Returns</h6>
+                <p className="mb-0">7 Days Easy Returns*</p>
+              </div>
+            </div>
 
-                            <div>
-                            <h4>parking instructions</h4>
+            <div className="col-12 col-md-3 d-flex gap-3 justify-content-center justify-content-md-start">
+              <span className="circle-element">
+                <i className="bi bi-credit-card fs-3"></i>
+              </span>
+              <div>
+                <h6>Secure Checkout</h6>
+                <p className="mb-0">Trusted Payments</p>
+              </div>
+            </div>
 
-                            <h5>For Car</h5>
-                            <ol className="mt-3">
-                                <li>ICICI Bank Bangalore N R Road Car Parking (Paid)</li>
-                                <li>Unity Building Kamata (Paid)</li>
-                            </ol>
-                            <h5>For Bike</h5>
-                            <ul className="mt-3 list-unstyled">
-                                <li>In front of the store (free)</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Information</h4>
-                            <ul className="list-unstyled ">
-                                <li>FAQs</li>
-                                <li>Privacy Policy</li>
-                                <li>Shipping Policy</li>
-                                <li>Refund Policy</li>
-                                <li>Terms & Conditions</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>company</h4>
-                            <ul className="list-unstyled">
-                                <li>Shop</li>
-                                <li>About Us</li>
-                                <li>Contact Us</li>
-                                <li>My Account</li>
-                                <li>Store Location</li>
-                            </ul>
-                        </div>
-                      </div>
+            <div className="col-12 col-md-3 d-flex gap-3 justify-content-center justify-content-md-start">
+              <span className="circle-element">
+                <i className="bi bi-cart3 fs-3"></i>
+              </span>
+              <div>
+                <h6>10,000+</h6>
+                <p className="mb-0">Orders Delivered</p>
+              </div>
+            </div>
 
-  
-                    </div>
-                                        <div className="container-fluid bg-dark text-light py-3">
-  <div className="container d-flex flex-column flex-md-row align-items-center  ">
+          </div>
+        </div>
 
-    <h6 className="mb-2 mb-md-0">
-      Copyright © 2026 pcstudio.in | Ankit Infotech | All rights reserved.
-    </h6>
+        <hr />
 
-    <img className="mx-5"
-      src="/src/assets/footer-icons-2-removebg-preview.png"
-      style={{ maxWidth: "350px" }}
-      alt="payment-icons"
-    />
+        {/* Middle Footer */}
+        <div className="container py-4">
+          <div className="row gy-4">
 
-  </div>
-</div>  
-                </footer>
+            {/* Logo + Map */}
+            <div className="col-12 col-md-4 text-center text-md-start">
+              <img className="mx-5"
+                src="src/assets/Gemini_Generated_Image_450vqi450vqi450v-removebg-preview.png"
+                style={{ width: "200px" }}
+                alt="logo"
+              />
 
-            </>
-        )
-    }
+              <div className="mt-3">
+                <iframe
+                  width="90%"
+                  height="200"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  src="https://www.google.com/maps?q=12.9716,77.5946&z=15&output=embed"
+                ></iframe>
+              </div>
+            </div>
+
+            {/* Parking */}
+            <div className="col-12 col-md-3">
+              <h5>Parking Instructions</h5>
+
+              <h6 className="mt-3">For Car</h6>
+              <ol>
+                <li>ICICI Bank Bangalore N R Road Parking</li>
+                <li>Unity Building Kamata Parking</li>
+              </ol>
+
+              <h6>For Bike</h6>
+              <ul className="list-unstyled">
+                <li>In front of the store (free)</li>
+              </ul>
+            </div>
+
+            {/* Information */}
+            <div className="col-6 col-md-2">
+              <h5>Information</h5>
+              <ul className="list-unstyled">
+                <li>FAQs</li>
+                <li>Privacy Policy</li>
+                <li>Shipping Policy</li>
+                <li>Refund Policy</li>
+                <li>Terms & Conditions</li>
+              </ul>
+            </div>
+
+            {/* Company */}
+            <div className="col-6 col-md-3">
+              <h5>Company</h5>
+              <ul className="list-unstyled">
+                <li>Shop</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>My Account</li>
+                <li>Store Location</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        {/* Bottom Footer */}
+        <div className="container-fluid bg-dark text-light py-3">
+          <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+
+            <h6 className="mb-2 mb-md-0">
+              Copyright © 2026 pcstudio.in | Ankit Infotech | All rights reserved.
+            </h6>
+
+            <img
+              src="/src/assets/footer-icons-2-removebg-preview.png"
+              style={{ maxWidth: "300px" }}
+              alt="payment-icons"
+            />
+
+          </div>
+        </div>
+
+      </footer>
+    </>
+  );
+}
