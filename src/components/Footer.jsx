@@ -101,7 +101,7 @@ export default function Footer() {
               </ol>
 
               <h6>For Bike</h6>
-              <ul className="list-unstyled">
+              <ul className="list-unstyled mx-4">
                 <li>In front of the store (free)</li>
               </ul>
             </div>
