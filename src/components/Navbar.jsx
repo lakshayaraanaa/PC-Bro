@@ -123,12 +123,12 @@ height:80px
     border-radius: 10px 10px 0 0 !important;
   }
 
-  .mobile-product-toggle .arrow {
+  .mobile-product-toggle .arrows {
     font-size: 0.85rem;
     transition: transform 0.3s ease;
   }
 
-  .mobile-product-toggle.open .arrow {
+  .mobile-product-toggle.open .arrows{
     transform: rotate(180deg);
   }
 
@@ -277,7 +277,7 @@ height:80px
                 type="button"
               >
                 Products
-                <span className="arrow">▾</span>
+                <span className="arrows">▾</span>
               </button>
 
               <ul className={`dropdown-menu custom-dropdown ${productOpen ? 'mobile-open' : ''}`}>

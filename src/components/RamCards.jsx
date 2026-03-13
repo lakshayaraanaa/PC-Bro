@@ -57,6 +57,20 @@
         "src/assets/SZD S580 ATX Mid-Tower PC Case, Desktop Gaming Computer Chasssis, Front I_O USB Type-C Port, Dual Tempered Glass Panels, High-Airflow Perforated Top Panel, Water-Cooling Ready (White).jpg",
       ],
     },
+     {
+      id: 5,
+      title: "Laddu",
+      text: "Delicious ghee laddu sweet",
+      image: "src/assets/download.jpg",
+      originalprice: "15000",
+      discountprice: "10000",
+      discount: 33,
+      thumbnails: [
+        "src/assets/download.jpg",
+        "src/assets/download.jpg",
+        "src/assets/download.jpg",
+      ],
+    },
   ];
 
   function ProductCard({ data }) {
@@ -81,7 +95,7 @@
           }
 
           .pc-card {
-            width: 260px;
+            width: 24   0px;
               display: flex;
        flex-direction: column;
        height: 400px;
@@ -344,7 +358,7 @@
     );
   }
 
-  export default function Products() {
+  export default function RamCards() {
     return (
       <>
         <style>{`
